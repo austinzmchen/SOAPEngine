@@ -13,6 +13,9 @@
 		9F970E4B1E3D6977003B37FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F970E4A1E3D6977003B37FB /* Assets.xcassets */; };
 		9F970E4E1E3D6977003B37FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F970E4C1E3D6977003B37FB /* LaunchScreen.storyboard */; };
 		9FCB8F3F1E3E66FC00B7689E /* SOAPEngine64.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FCB8F3E1E3E66FC00B7689E /* SOAPEngine64.framework */; };
+		C44C68661F8F261900F705BB /* ACSoapEngineWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C68651F8F261900F705BB /* ACSoapEngineWrapper.swift */; };
+		C44C68681F8F263100F705BB /* ACSoapRemoteRecordType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C68671F8F263100F705BB /* ACSoapRemoteRecordType.swift */; };
+		C44C686A1F8F26BE00F705BB /* FleetClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C68691F8F26BE00F705BB /* FleetClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		9F970E4F1E3D6977003B37FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F970E611E3D6F9D003B37FB /* SOAPEngine-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOAPEngine-Bridging-Header.h"; sourceTree = "<group>"; };
 		9FCB8F3E1E3E66FC00B7689E /* SOAPEngine64.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SOAPEngine64.framework; path = ../SOAPEngine64.framework; sourceTree = "<group>"; };
+		C44C68651F8F261900F705BB /* ACSoapEngineWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACSoapEngineWrapper.swift; sourceTree = "<group>"; };
+		C44C68671F8F263100F705BB /* ACSoapRemoteRecordType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACSoapRemoteRecordType.swift; sourceTree = "<group>"; };
+		C44C68691F8F26BE00F705BB /* FleetClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FleetClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 			children = (
 				9F970E431E3D6977003B37FB /* AppDelegate.swift */,
 				9F970E451E3D6977003B37FB /* ViewController.swift */,
+				C44C68651F8F261900F705BB /* ACSoapEngineWrapper.swift */,
+				C44C68671F8F263100F705BB /* ACSoapRemoteRecordType.swift */,
+				C44C68691F8F26BE00F705BB /* FleetClass.swift */,
 				9F970E471E3D6977003B37FB /* Main.storyboard */,
 				9F970E4A1E3D6977003B37FB /* Assets.xcassets */,
 				9F970E4C1E3D6977003B37FB /* LaunchScreen.storyboard */,
@@ -152,7 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F970E461E3D6977003B37FB /* ViewController.swift in Sources */,
+				C44C68681F8F263100F705BB /* ACSoapRemoteRecordType.swift in Sources */,
 				9F970E441E3D6977003B37FB /* AppDelegate.swift in Sources */,
+				C44C68661F8F261900F705BB /* ACSoapEngineWrapper.swift in Sources */,
+				C44C686A1F8F26BE00F705BB /* FleetClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
